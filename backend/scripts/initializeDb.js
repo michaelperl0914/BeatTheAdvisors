@@ -65,7 +65,12 @@ const createAdvisorPick = async (advisorId, gameId, selection) => {
 };
 
 const initializeDb = async () => {
+  const advisor1 = createAdvisor('Dave Portnoy', '')
+  const advisor2 = createAdvisor('Big Cat', '')
+  const advisor3 = createAdvisor('Stu Feiner', '')
+  const advisor4 = createAdvisor('Tommy Smokes', '')
 
+  
 };
 
 initializeDb().catch(console.error);

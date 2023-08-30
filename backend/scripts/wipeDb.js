@@ -41,7 +41,7 @@ async function deleteQueryBatch(db, query, batchSize, resolve, reject) {
 
 async function wipeDb() {
   // Add your collection names here
-  const collections = ["users", "picks", "advisors"];
+  const collections = ["advisors"];
 
   for (const collection of collections) {
     console.log(`Deleting ${collection} collection`);

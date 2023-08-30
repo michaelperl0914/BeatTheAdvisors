@@ -22,3 +22,6 @@ app.listen(port, () => {
 // Routes
 app.use("/users", userRoutes);
 app.use("/advisors", advisorRoutes);
+
+
+module.exports = app;
